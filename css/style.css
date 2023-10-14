@@ -1,0 +1,237 @@
+/* carousel */
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  max-height: 610px;	  
+  }
+.carousel-caption h1{
+	font-size: 55px;
+	color: rgb(40, 187, 126);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+}
+/* end of carousel */
+/* Home page top background image */
+
+.HeaderText{
+	font-size: 55px;
+	color: rgb(40, 187, 126);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 40%;
+	left: 28%;
+
+}
+ @media(max-width:765px) {
+	.HeaderText{
+		position: static;
+		top: 120px;
+		right: 45px;
+		font-size: 20px;
+	}
+} 
+/* END */
+/* About us and other related pages*/
+.subheader{
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.about-box{
+	padding: 70px 0px;
+}
+
+.img-fluid{
+	max-width:100%;
+	height:auto;
+}
+/* end of about us and other related pages */
+
+/* projects page */
+.heading-title{
+	margin-bottom: 50px;
+}
+.heading-title h2{
+	font-size: 38px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.company-box{
+	padding: 70px 0px;
+}
+.company{
+	margin: 30px 0px;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+.note{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    right: 0;
+    height: 100%;
+    background: rgba(71, 64, 55, 0.9);
+    padding: 12px 12px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.note h4{
+	color: #ffffff;
+	font-weight: 500;
+	font-family: 'Arbutus Slab', serif;
+}
+
+.company:hover .note{
+	bottom: 0px;
+}
+
+/* end of projects page and other related pages */
+
+/* footer */
+.footer-area{
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+.black-metal{
+	background-image: url("../images/black-metal-tile-roof-roof-metal-sheets-modern-types-of-roofing-materials-roof-of-the-house-metal-roof-tile-against-the-blue-sky-building-2BCT9DF.jpg");
+	background-attachment: scroll;
+	background-clip: initial;
+	background-color: rgba(0, 0, 0, 0);
+	background-origin: initial;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.black-metal::before {
+    background: #010101;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+	opacity: 0.8;
+}
+
+.footer-area .container{
+	position: relative;
+	z-index: 1;
+}
+.footer-area h3{
+	color: #ffffff;
+	font-size: 20px;
+	border-bottom: 1px dashed rgba(207, 166, 113, 0.5);
+	margin-bottom: 10px;
+}
+.footer-area p{
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.footer-area p a{
+	font-size: 18px;
+	color: #ffffff;
+}
+.footer-area p a:hover{
+	color: #d0a772;
+}
+.copyright{
+	margin-top: 20px;
+	position: relative;
+	display: block;
+	background-color: #010101;
+	border-top: 1px dashed rgba(207, 166, 113);
+	padding: 30px 0;
+	z-index: 1;
+}
+
+.copyright .company-name{
+	font-size: 16px;
+	text-align: center;
+}
+.subscribe_form {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.subscribe_form .form_input {
+    display: block;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border: none;
+    font-size: 19px;
+    line-height: 50px;
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.subscribe_form .submit {
+    background-color: #d0a772;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+	border: none;
+	cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.subscribe_form .submit:hover{
+	background: #010101;
+}
+
+/* end of footer */
+
+/* about us background image */
+
+.abt {
+    padding: 250px 0 150px;
+    background: url(../images/black-metal-tile-roof-roof-metal-sheets-modern-types-of-roofing-materials-roof-of-the-house-metal-roof-tile-against-the-blue-sky-building-2BCT9DF.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+.aboutBackground .container{
+	position: relative;
+	z-index: 2;
+}
+.aboutBackground::before{
+	background: #010101;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.8;	
+}
+.aboutBackground h1{
+	font-size: 38px;
+	color: #ffffff;
+	font-family: 'Arbutus Slab', serif;
+	padding: 0px;
+}
+/* end of about us background image */
+
+.inner-pt{
+	margin-top: 30px;
+}
+
+.contactRow{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
